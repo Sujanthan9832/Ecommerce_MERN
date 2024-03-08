@@ -1,0 +1,176 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 1px 3px -2px black;
+    width: 100%;
+    height: 65px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    margin: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.cname {
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0;
+    width: 210px;
+    color: #313638;
+}
+
+.slogan-box {
+    width: 210px;
+    display: flex;
+}
+
+.slogan {
+    color: #313638;
+    font-size: 10px;
+    margin: 0;
+}
+
+.menu {
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin: auto;
+    width: 400px;
+    padding-left: 0;
+}
+
+.nav-link {
+    justify-content: space-between;
+    color: #313638;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    gap: 3px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+.active:hover {
+    border: none;
+}
+
+.searchicon:hover {
+    transform: scale(1.3);
+}
+
+
+.user-element {
+    font-size: 30px;
+    display: flex;
+    margin: 0;
+    margin-right: 50px;
+    gap: 5px;
+}
+
+.user-element button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+}
+
+.loginbtn {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #80CBC4;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.searchbar input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+}
+
+.searchbar button {
+    padding: 9px 12px 10px 12px;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid black;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.searchbar input:focus {
+    background-color: #E0F2F1;
+}
+
+.user-element .loginbtn {
+    border: none;
+}
+
+.user-element .cart-icon {
+    border: none;
+    margin-top: 8px;
+}
+
+.user-element button:hover {
+    background-color: #80CBC4;
+}
+
+.user-element button:active {
+    background-color: #26A69A;
+}
+
+.cart-icon {
+    cursor: pointer;
+    color: black;
+}
+
+.cart-icon:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: -8px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
